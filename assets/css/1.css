@@ -31,3 +31,15 @@ aside {
   height: 200px;
   padding: 20px;
 }
+
+@media screen and (min-width: 576px) {
+  aside p {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    background-color: blueviolet;
+  }
+}
