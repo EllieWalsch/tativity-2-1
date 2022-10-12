@@ -10,7 +10,24 @@ header {
   padding: 20px;
 }
 
+nav,
+aside,
+section,
+footer {
+  padding: 10px;
+}
+
 nav {
   background-color: blanchedalmond;
-  padding: 10px;
+}
+
+aside {
+  background-color: aquamarine;
+}
+
+.sample-img {
+  background-color: skyblue;
+  border: 1px solid black;
+  height: 200px;
+  padding: 20px;
 }
