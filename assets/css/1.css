@@ -1,0 +1,11 @@
+body {
+  font-size: 20px;
+}
+
+header {
+  background-color: maroon;
+  text-align: center;
+  color: white;
+  height: 320px;
+  padding: 20px;
+}
