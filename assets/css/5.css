@@ -1,0 +1,55 @@
+header {
+  text-align: center;
+  background-color: brown;
+  color: white;
+  padding: 20px;
+}
+
+header p {
+  line-height: 1.25;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  gap: 1rem;
+  background-color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+aside {
+  background-color: olive;
+  color: white;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-color: navy;
+  }
+
+  nav {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  main {
+    display: flex;
+  }
+
+  aside {
+    width: 20%;
+  }
+
+  section {
+    width: 80%;
+  }
+}

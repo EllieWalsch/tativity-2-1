@@ -1,0 +1,31 @@
+.main-header {
+  padding: 0.05rem;
+  text-align: center;
+  background-color: rgb(101 211 142);
+}
+
+main {
+  background-color: darkolivegreen;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background-color: bisque;
+  color: black;
+  padding: 5rem 0.5rem;
+  border: solid 1px black;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .card {
+    min-width: 20%;
+  }
+}
