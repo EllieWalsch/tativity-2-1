@@ -52,4 +52,13 @@ article ul {
   text-decoration: none;
 }
 
-@media screen and (min-width);
+@media screen and (min-width: 1024px) {
+  .links li {
+    display: none;
+  }
+
+  /* Sibling Selector is the + */
+  .resources h2:hover + .links li {
+    display: inline-block;
+  }
+}
